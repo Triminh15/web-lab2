@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+body > div {
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+nav, footer {
+    background-color: #d4f2f4;
+    color: #0b0848;
+}
+
+nav {
+    padding: 15px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+nav a {
+    color: #0b0848;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#phan-1 {
+    background-color: #F3FDE8;
+    padding: 40px 50px;
+}
+
+#phan-1 div:first-of-type {
+    margin-bottom: 30px;
+}
+
+img {
+    border-radius: 12px;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+#phan-2 {
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+    background-repeat: repeat;
+    background-color: #e2e8f0;
+    text-align: center;
+    padding: 40px 50px;
+}
+
+#phan-2 ul {
+    width: fit-content;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 15px 30px;
+    border-radius: 8px;
+    list-style-position: inside;
+}
+
+h1, h2, h3, h4 {
+    font-size: 24px;
+    -webkit-text-stroke: 0.5px black;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    width: fit-content;     max-width: 100%;
+}
+
+#phan-2 h1, #phan-2 h2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    background-color: #CAEDFF;
+    padding: 8px 16px;
+    box-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+}
+
+h2 {
+    background-color: #D8B4F8;
+    padding: 6px 14px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+h3 {
+    background-color: #FFC7EA;
+    padding: 4px 10px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #e2e8f0;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form p {
+    margin-bottom: 18px;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+    transform: scale(1.2);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #D8B4F8;
+    box-shadow: 0 0 5px rgba(216, 180, 248, 0.5);
+}
+
+button {
+    background-color: #D8B4F8;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #333;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background-color: #c49aeb;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
